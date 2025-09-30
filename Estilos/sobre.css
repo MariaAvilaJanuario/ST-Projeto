@@ -100,6 +100,82 @@ header {
     }
 }
 
+.container {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 30px;
+  padding: 10px;
+  font-size: 24px;
+  color: #ffffff;
+  background-color: #000000;
+  justify-content: center;
+  display: flex;
+}
+
+.caixa {
+  padding: 50px;
+  margin-bottom: 20px;
+  border-radius: 12px;
+  box-shadow: 0px 3px 10px #464646;
+  color: white;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.caixa.vermelha {
+  background: linear-gradient(135deg, #b32bb8, #f48c9f);
+}
+
+.caixa.roxa {
+  background: linear-gradient(135deg, #692199, #8a7efc);
+}
+
+.fotos {
+    width: 100%;
+}
+
+.linguas {
+    width: 350px;
+    display: block;
+    margin: 0 auto;
+}
+
+.conteudo {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.caixa {
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 10px;
+  font-size: 17px;
+  line-height: 1.5;
+}
+
+.caixa.laranja {
+  background: linear-gradient(135deg, #e67e22, #f39c12);
+  color: #fff;
+}
+
+.caixa.azul {
+  background: linear-gradient(135deg, #3498db, #5dade2);
+  color: #fff;
+}
+
+.caixa.amarela {
+  background: linear-gradient(135deg, #f4d03f, #f5b041);
+  color: #222;
+}
+
+
 footer {
   background: #000000;
   padding: 30px 20px;
@@ -149,6 +225,3 @@ footer p {
 .icon {
     width: 30px;
 }
-
-
-
