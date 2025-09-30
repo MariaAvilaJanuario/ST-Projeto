@@ -129,7 +129,7 @@ header {
   transition: 0.2s ease;
 }
 .botao:hover {
-  background: #2980b9;
+    background: linear-gradient(to right, #b54570, #49116a);
 }
 
 footer {
