@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    background-color: #f0f0f0;
+}
+
+.retornar {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+}
+
+.voltar {
+    width: 50px;
+}
+
+.container-jogo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; 
+}
+
+.jogo {
+    text-align: center;
+}
+
+.tabuleiro {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-gap: 5px;
+    margin-top: 20px;
+}
+
+.celula {
+    width: 100px;
+    height: 100px;
+    background-color: #fff;
+    border: 2px solid #333;
+    font-size: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.celula:hover {
+    background-color: #eee;
+}
+
+.celula.vencedor {
+    background-color: #79e779;
+}
+
+#status {
+    margin-top: 20px;
+    font-size: 1.2em;
+    font-weight: bold;
+}

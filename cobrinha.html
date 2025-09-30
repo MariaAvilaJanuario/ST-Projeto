@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DS</title>
+    <link rel="stylesheet" href="Estilos/cobrinha.css">
+</head>
+<body>
+
+    <div class="retornar">
+        <a href="jogos.html">
+                <img class="voltar" src="Imagens/retornar.png">
+            </a>
+    </div>
+    
+    <div class="container">
+        <header>
+            <h1>Jogo da Cobrinha</h1>
+        </header>
+        
+        <div class="game-info">
+            <div class="score">Pontuação: <span id="score-value">0</span></div>
+            <div class="high-score">Recorde: <span id="high-score-value">0</span></div>
+        </div>
+        
+        <div class="game-area">
+            <canvas id="game-canvas"></canvas>
+            <div class="game-over" id="game-over">
+                <h2>Game Over!</h2>
+                <div class="final-score">Sua pontuação: <span id="final-score">0</span></div>
+                <button class="action-btn" id="restart-btn">Jogar Novamente</button>
+            </div>
+        </div>
+        
+        <div class="controls">
+            <div class="directional-controls">
+                <button class="control-btn up" id="up-btn">↑</button>
+                <button class="control-btn left" id="left-btn">←</button>
+                <button class="control-btn right" id="right-btn">→</button>
+                <button class="control-btn down" id="down-btn">↓</button>
+            </div>
+            
+            <div class="action-buttons">
+                <button class="action-btn" id="start-btn">Iniciar Jogo</button>
+                <button class="action-btn pause-btn" id="pause-btn">Pausar</button>
+            </div>
+        </div>
+
+    <script src="JS/cobrinha.js"></script>
+</body>
+</html>
