@@ -1,77 +1,77 @@
 html {
-  font-family: sans-serif;
-  height: 100%;
-}
-
-body {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-  margin: 0;
-  background: linear-gradient(135deg, #6a11cb, #2575fc);
-  color: #333;
-}
-
-.retornar {
-    position: fixed;
-    top: 20px;
-    left: 20px;
-}
-
-.voltar {
-    width: 50px;
-}
-
-main {
-  flex: 1;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 20px;
-}
-
-.container {
-  background: white;
-  padding: 20px 30px;
-  border-radius: 12px;
-  box-shadow: 0px 4px 15px rgba(0,0,0,0.2);
-  width: 90%;
-  max-width: 500px;
-  text-align: center;
-}
-
-h1 {
-  color: #2575fc;
-}
-
-.form input[type="number"] {
-  width: 100%;
-  padding: 10px;
-  margin: 10px 0;
-  border: 1px solid #ccc;
-  border-radius: 6px;
-  font-size: 16px;
-}
-
-.form input[type="submit"] {
-  background: #2575fc;
-  color: white;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 6px;
-  font-size: 16px;
-  cursor: pointer;
-  transition: 0.3s;
-}
-
-.form input[type="submit"]:hover {
-  background: #1b5bcc;
-}
-
-.ultimoResultado {
-  margin-top: 15px;
-  color: white;
-  background: #2575fc;
-  padding: 8px;
-  border-radius: 6px;
-}
+    font-family: sans-serif;
+    height: 100%;
+  }
+  
+  body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    color: #333;
+  }
+  
+  .retornar {
+      position: fixed;
+      top: 20px;
+      left: 20px;
+  }
+  
+  .voltar {
+      width: 50px;
+  }
+  
+  main {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .container {
+    background: white;
+    padding: 20px 30px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 15px rgba(0,0,0,0.2);
+    width: 90%;
+    max-width: 500px;
+    text-align: center;
+  }
+  
+  h1 {
+    color: #2575fc;
+  }
+  
+  .form input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+  }
+  
+  .form input[type="submit"] {
+    background: #2575fc;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .form input[type="submit"]:hover {
+    background: #1b5bcc;
+  }
+  
+  .ultimoResultado {
+    margin-top: 15px;
+    color: white;
+    background: #2575fc;
+    padding: 8px;
+    border-radius: 6px;
+  }
