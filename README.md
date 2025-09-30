@@ -1,6 +1,6 @@
 # ST-Projeto
 <h1>Projeto Semana Técnica 2B - DS</h1>
-<p>Inspirado em:</p>
+<p>Inspirado em: Friv Jogos e jogos retros</p>
 <br>
 <h2>Feito por:</h2>
 <li>
